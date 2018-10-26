@@ -1,6 +1,6 @@
 # hym-workforfood
 
-Project: "Quest: A night in Uzhnu"
+Project: "Quest game: UzhNightmare"
 
 2018
 
