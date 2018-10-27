@@ -15,6 +15,7 @@ public class ObjectsToCollect : MonoBehaviour {
 
     void Start()
     {
+      objects = 0;
     	//if(objects > -1) return;
         axises = new List<Vector3>();
         axises.Add(new Vector3(14, 131, -208));
@@ -63,18 +64,6 @@ public class ObjectsToCollect : MonoBehaviour {
     		axises.Add(new Vector3(85, 126 -225));
     		axises.Add(new Vector3(69, 126 -234));
     		axises.Add(new Vector3(91, 126, -235));
-
-        int COUNT = 12;
-        //Random rnd = new Random();
-
-        do {
-          int index = rnd.next(axises.Count);
-          Vector3 vec = axises[index];
-
-          axises.Remove(vec);
-
-          COUNT--;
-        } while(COUNT > 0);
 
 
         GameObject[] arrayofcubes = GameObject.FindGameObjectsWithTag("Enemy");
