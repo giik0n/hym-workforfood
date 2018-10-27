@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_MK\MKGlassFree\Editor\MKGlassFreeEditor.cs" />
      <Compile Include="Assets\EasyMainMenu\Scripts\Editor\EMM_AddCanvases.cs" />
      <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\Editor\MainMenuControllerEditor.cs" />
  <Reference Include="UnityEditor.StandardEvents">

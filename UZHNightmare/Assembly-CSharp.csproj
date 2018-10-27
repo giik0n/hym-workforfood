@@ -53,11 +53,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\_MK\MKGlassFree\MKGlassFreeMaterialHelper.cs" />
      <Compile Include="Assets\Custom Assets\Scripts\CountObjects.cs" />
      <Compile Include="Assets\Custom Assets\Scripts\ObjectsToCollect.cs" />
      <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
      <Compile Include="Assets\MainMenu.cs" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassInc.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaIO.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurface.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMeta.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassLight.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForward.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitIO.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardIO.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassDef.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Common\MKGlassV.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassFree.shader" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardAddSetup.cginc" />
      <None Include="Assets\DN\SacredStudent_SchoolDesksAndChairs\Info.txt" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Forward\MKGlassForwardBaseSetup.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Meta\MKGlassMetaSetup.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLitSetup.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\VertexLit\MKGlassVertexLit.cginc" />
+     <None Include="Assets\_MK\MKGlassFree\Shader\Inc\Surface\MKGlassSurfaceIO.cginc" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/giik0n/Desktop/hym-workforfood/UZHNightmare/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
