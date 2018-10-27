@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: 31e01063660b8bb42bc039ae91e2e6d4
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Grunge_A
+    100004: Grunge_B
+    100006: Grunge_C
+    100008: Grunge_D
+    100010: Grunge_E
+    100012: Grunge_F
+    100014: Hay_A
+    100016: Hay_B
+    100018: Hay_C
+    100020: Hay_D
+    100022: Wax
+    100024: Decals
+    400000: //RootNode
+    400002: Grunge_A
+    400004: Grunge_B
+    400006: Grunge_C
+    400008: Grunge_D
+    400010: Grunge_E
+    400012: Grunge_F
+    400014: Hay_A
+    400016: Hay_B
+    400018: Hay_C
+    400020: Hay_D
+    400022: Wax
+    400024: Decals
+    2300000: Grunge_A
+    2300002: Grunge_B
+    2300004: Grunge_C
+    2300006: Grunge_D
+    2300008: Grunge_E
+    2300010: Grunge_F
+    2300012: Hay_A
+    2300014: Hay_B
+    2300016: Hay_C
+    2300018: Hay_D
+    2300020: Wax
+    3300000: Grunge_A
+    3300002: Grunge_B
+    3300004: Grunge_C
+    3300006: Grunge_D
+    3300008: Grunge_E
+    3300010: Grunge_F
+    3300012: Hay_A
+    3300014: Hay_B
+    3300016: Hay_C
+    3300018: Hay_D
+    3300020: Wax
+    4300000: Hay_A
+    4300002: Hay_B
+    4300004: Hay_C
+    4300006: Hay_D
+    4300008: Grunge_A
+    4300010: Grunge_B
+    4300012: Grunge_C
+    4300014: Grunge_D
+    4300016: Grunge_E
+    4300018: Grunge_F
+    4300020: Wax
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
