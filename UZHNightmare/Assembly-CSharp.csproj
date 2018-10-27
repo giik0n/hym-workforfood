@@ -55,6 +55,7 @@
   <ItemGroup>
      <Compile Include="Assets\_MK\MKGlassFree\MKGlassFreeMaterialHelper.cs" />
      <Compile Include="Assets\Custom Assets\Scripts\CountObjects.cs" />
+     <Compile Include="Assets\Custom Assets\Scripts\GameOver.cs" />
      <Compile Include="Assets\Custom Assets\Scripts\ObjectsToCollect.cs" />
      <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
      <Compile Include="Assets\MainMenu.cs" />
