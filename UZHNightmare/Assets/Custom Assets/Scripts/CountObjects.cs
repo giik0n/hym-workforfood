@@ -8,6 +8,7 @@ public class CountObjects : MonoBehaviour {
 	public string nextLevel;
 	public GameObject objToDestroy;
 	GameObject objUI;
+	public AudioSource audioSource;
 
 	// Use this for initialization
 	void Start () {
@@ -21,6 +22,7 @@ public class CountObjects : MonoBehaviour {
 		objUI.GetComponent<Text>().text = ObjectsToCollect.objects.ToString();
 		if(ObjectsToCollect.objects == 0){
 				//Application.LoadLevel(nextLevel);
+				audioSource.Stop();
 				SceneManager.LoadScene("Final Scene");
 			objUI.GetComponent<Text>().text= "All objects collected.";
 		}
