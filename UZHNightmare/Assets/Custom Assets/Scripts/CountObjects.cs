@@ -21,7 +21,7 @@ public class CountObjects : MonoBehaviour {
 		objUI.GetComponent<Text>().text = ObjectsToCollect.objects.ToString();
 		if(ObjectsToCollect.objects == 0){
 				//Application.LoadLevel(nextLevel);
-				SceneManager.LoadScene("FirstFlour");
+				SceneManager.LoadScene("Final Scene");
 			objUI.GetComponent<Text>().text= "All objects collected.";
 		}
 	}

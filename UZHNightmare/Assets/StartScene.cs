@@ -6,6 +6,6 @@ public class StartScene : MonoBehaviour {
 
 	// Use this for initialization
 	public void StartGameBasement(){
-		SceneManager.LoadScene("Basement");
+		SceneManager.LoadScene("FirstFlour");
 	}
 }

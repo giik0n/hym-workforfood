@@ -58,6 +58,7 @@
      <Compile Include="Assets\Custom Assets\Scripts\GameOver.cs" />
      <Compile Include="Assets\Custom Assets\Scripts\ObjectsToCollect.cs" />
      <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
+     <Compile Include="Assets\FirstFloor.cs" />
      <Compile Include="Assets\MainMenu.cs" />
      <Compile Include="Assets\StartScene.cs" />
      <None Include="Assets\_MK\MKGlassFree\Shader\MKGlassCommonFree.shader" />

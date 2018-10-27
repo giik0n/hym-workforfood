@@ -77,8 +77,10 @@ public class ObjectsToCollect : MonoBehaviour {
     }
 
         void OnTriggerEnter (Collider plyr) {
-    if( objects > -1 && plyr.gameObject.tag == "Player")
+    if( objects > -1 && plyr.gameObject.tag == "Player"){
       objects--;
-    gameObject.SetActive(false);
+      gameObject.SetActive(false);
+    }
+
   }
 }
