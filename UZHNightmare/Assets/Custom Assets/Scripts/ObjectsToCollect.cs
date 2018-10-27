@@ -15,7 +15,6 @@ public class ObjectsToCollect : MonoBehaviour {
 
     void Start()
     {
-      objects = 0;
     	//if(objects > -1) return;
         axises = new List<Vector3>();
         axises.Add(new Vector3(14, 131, -208));

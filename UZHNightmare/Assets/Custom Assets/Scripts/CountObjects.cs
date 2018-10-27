@@ -10,7 +10,7 @@ public class CountObjects : MonoBehaviour {
 	GameObject objUI,timeUI;
 	public AudioSource audioSource;
 
-	float timeLeft = 10;//10 * 60.0f;
+	float timeLeft = 10 * 60.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -30,13 +30,15 @@ public class CountObjects : MonoBehaviour {
 		         if(timeLeft < 0)
 		         {
 							 timeUI.GetComponent<Text>().text = "Time is out!";
+							 ObjectsToCollect.objects = 0;
+							 audioSource.Stop();
 							 SceneManager.LoadScene("FirstFlour");
 		         }
 
         	if(ObjectsToCollect.objects < 0) return;
 
-		objUI.GetComponent<Text>().text = "Count of Pumpkins " + ObjectsToCollect.objects.ToString();
-		if(ObjectsToCollect.objects == 0){
+		objUI.GetComponent<Text>().text = "Pumpkins left " + ObjectsToCollect.objects.ToString();
+		if(ObjectsToCollect.objects == 0 && seconds > 0){
 				//Application.LoadLevel(nextLevel);
 				audioSource.Stop();
 				SceneManager.LoadScene("Final Scene");

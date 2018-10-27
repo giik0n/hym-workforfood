@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class GameOver : MonoBehaviour {
 GameObject objUI;
 
@@ -12,6 +14,8 @@ void Start () {
 	void OnTriggerEnter (Collider plyr) {
 		if(plyr.gameObject.tag == "Player")
 			objUI.GetComponent<Text>().text= "Game Over";
-		
+			SceneManager.LoadScene("MainMenu");
+
 	}
+
 }

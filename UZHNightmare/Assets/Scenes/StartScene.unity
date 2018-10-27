@@ -390,7 +390,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: You woke up after 8th class, and you dont know where you are...
+  m_Text: '"Prologue: Classes are over" It seems the last lesson is over. It''s time
+    to go home!'
 --- !u!222 &297529388
 CanvasRenderer:
   m_ObjectHideFlags: 0
