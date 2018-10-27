@@ -53,7 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Custom Assets\Scripts\ObjectsToCollect.cs" />
      <Compile Include="Assets\EasyMainMenu\Scripts\Main Menu Scripts\MainMenuController.cs" />
+     <Compile Include="Assets\MainMenu.cs" />
      <None Include="Assets\DN\SacredStudent_SchoolDesksAndChairs\Info.txt" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/giik0n/Desktop/hym-workforfood/UZHNightmare/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
